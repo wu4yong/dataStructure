@@ -26,5 +26,12 @@ public class TestSelectionSort {
         return  array;
     }
 
+    public static void main(String[] args) {
+        int[] arr={1,4,2,3,6,5};
+        int[] ints = selectionSort(arr);
+        for (int a: ints) {
+            System.out.println(a);
+        }
+    }
 
 }
